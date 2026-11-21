@@ -1,2 +1,9 @@
-# campus-hub-releases
-校园汇 Android 安装包与更新说明
+# 校园汇安装包与更新说明
+
+校园汇会在打开应用时检查本仓库最新的正式 Release，并提示下载更新。
+
+安装包发布到 Releases，使用 v0.2.1 这样的版本标签，附上一个适用于 arm64 的 APK 和更新说明。测试版请标记为 Pre-release，正式更新检查会略过测试版。
+
+每次发布递增 versionCode，使用固定的发布签名和包名 com.campuswater.app。用户确认下载后，由 Android 系统完成安装。源码在作者的私有仓库中维护。
+
+当前还没有发布正式安装包。
